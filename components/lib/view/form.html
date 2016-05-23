@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mazen Books</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="content/css/formstyle.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <form class="form-signin" action="index.php?option=lib&view=login" method="post">       
+                <h2 class="form-signin-heading">Login</h2>
+                <input type="text" class="form-control" name="username" placeholder="User Name" required="" autofocus="" />
+                <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+                <label class="checkbox">
+                    <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+                </label>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+                <div class="login-help">
+                    <a href="index.php?option=lib&view=register">Register</a> 
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
